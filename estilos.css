@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.titulo {
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 80%;
+    padding: 1rem;
+}
+
+.cabecera {
+    border: 1px solid black;
+    background-color: aquamarine;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.cabecera, .info, .consignas {
+    padding: 1rem;
+    line-height: 1,5rem;
+}
+
+li {
+    margin: 0 0 0 2rem;
+}
+
+mark {
+    background-color: aquamarine;
+}
