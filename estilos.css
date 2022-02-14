@@ -39,3 +39,8 @@ li {
 mark {
     background-color: aquamarine;
 }
+
+img {
+    width: 100px;  
+    align-self: flex-end;
+}
